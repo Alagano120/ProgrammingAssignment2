@@ -1,5 +1,9 @@
-## This is my assignment attempt
-## Have created a functions that will cache the inverse of matrix 
+## This is an assignment attempt
+## This is a Matrix Inversion very useful in long winded computations 
+## Because if the values remains the same the cached value will be used
+## Instead of simply resolving for the value
+## Created a functions where it will cache inverse of the matrix
+
 makeCacheMatrix <- function(x = matrix()) {
        
         ## Inverse will be generated from this
@@ -27,7 +31,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## The inverse of the x above will be solved
-## It will also be retrived by this function
+## It will also be retrieved by this function
+
+## Matrix that is an inverse of 'x' will be brought back
 
 cacheSolve <- function(x, ...) {
         
