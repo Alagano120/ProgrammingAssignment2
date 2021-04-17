@@ -1,3 +1,4 @@
+## This is my assignment attempt
 ## Have created a functions that will cache the inverse of matrix 
 makeCacheMatrix <- function(x = matrix()) {
        
@@ -25,7 +26,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 }
 
-## The inverse of the x above will be solved and retrived by this function
+## The inverse of the x above will be solved
+## It will also be retrived by this function
 
 cacheSolve <- function(x, ...) {
         
